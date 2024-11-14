@@ -39,6 +39,9 @@ public class Yakuza extends Humain{
 		return argent;
 	}
 	
-	
-	
+	@Override
+	public void direBonjour() {
+		super.direBonjour();
+		parler("Je viens du clan: "+this.clan);
+	}
 }

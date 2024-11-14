@@ -21,7 +21,7 @@ public class Ronin extends Humain {
 		}
 	}	
 	
-	public void Provoquer(Yakuza y) {
+	public void provoquer(Yakuza y) {
 		if(this.honneur * 2 > y.getReputation()) {
 			gagnerArgent(y.perdreDuel());
 			this.honneur +=1;
